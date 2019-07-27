@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    font-family: sans-serif;
+    background: #49488cf7;
+}
+
+.headingwrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%
+}
+
+.jumboHeading{
+    text-shadow: 10px 10px rgba(0,0,0,0.4);
+    font-size: 100px;
+    text-align: center;
+    color: #ccc;
+    cursor: pointer;
+    transform: rotate(-20deg);
+  }
